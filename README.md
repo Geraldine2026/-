@@ -41,11 +41,11 @@
 
 ```
 追剧日历管家/
-├── README.md                  # 项目说明
-├── skill/                     # Skill 文件
-│   ├── SKILL.md               # 技能定义文件（含 yaml 前端配置）
+├── README.md                  # 项目说明文档
+├── skill/                     # Skill 主目录
+│   ├── SKILL.md               # 技能定义文件（含 YAML 前端配置）
 │   ├── scripts/               # 脚本/工具代码
-│   │   ├── __init__.py        # 模块入口
+│   │   ├── init.py            # 模块入口
 │   │   ├── data_manager.py    # 数据管理核心（被所有脚本引用）
 │   │   ├── parser.py          # 追剧录入（引用 data_manager）
 │   │   ├── scheduler.py       # 日程生成（引用 data_manager）
@@ -53,14 +53,14 @@
 │   │   ├── recommender.py     # 智能推荐（引用 data_manager）
 │   │   └── recap.py           # 前情提要（引用 data_manager）
 │   └── references/            # 参考文件/配置文件
-│       ├── schedule_rules.yaml    # 剧集播出规律配置
-
-│       └──sample_history.json    # 示例追剧历史
+│       ├── schedule_rules.yaml    # 剧集播出规律配置（29部剧）
+│       ├── sample_history.json    # 示例追剧历史（26部剧）
+│       └── definition-checklist.md # 定义审查：20项检查清单
 ├── data/                      # 数据存储
-│   ├── drama_data.json        # 追剧数据（脚本共享）
+│   ├── watch_data.json        # 追剧数据（脚本共享）
 │   └── test_inputs.json       # 20个测试用例
 ├── tests/                     # 测试记录
-│   └── test_record.md         # 测试执行记录（21个用例，100%通过）
+│   └── test_record.md         # 测试执行记录（15个用例，100%通过）
 └── iteration/                 # 迭代升级说明
     └── iteration_log.md       # 4轮迭代记录（V1.0→V2.1）
 ```
