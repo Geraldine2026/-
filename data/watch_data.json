@@ -1,0 +1,57 @@
+{
+  "watch_list": {
+    "黑暗荣耀": {
+      "my_episode": 8,
+      "latest_episode": 16,
+      "last_update": "2026-07-12 14:27"
+    },
+    "繁花": {
+      "my_episode": 12,
+      "latest_episode": 30,
+      "last_update": "2026-07-12 14:26"
+    },
+    "庆余年2": {
+      "my_episode": 15,
+      "latest_episode": 36,
+      "last_update": "2026-07-12 14:26"
+    }
+  },
+  "history": [
+    {
+      "drama_name": "黑暗荣耀",
+      "action": "新增",
+      "my_episode": 8,
+      "latest_episode": 16,
+      "date": "2026-07-12 14:26"
+    },
+    {
+      "drama_name": "繁花",
+      "action": "新增",
+      "my_episode": 12,
+      "latest_episode": 30,
+      "date": "2026-07-12 14:26"
+    },
+    {
+      "drama_name": "庆余年2",
+      "action": "新增",
+      "my_episode": 15,
+      "latest_episode": 36,
+      "date": "2026-07-12 14:26"
+    },
+    {
+      "drama_name": "黑暗荣耀",
+      "action": "更新",
+      "my_episode": 9,
+      "latest_episode": 16,
+      "date": "2026-07-12 14:26"
+    },
+    {
+      "drama_name": "黑暗荣耀",
+      "action": "更新",
+      "my_episode": 8,
+      "latest_episode": 16,
+      "date": "2026-07-12 14:27"
+    }
+  ],
+  "total_count": 5
+}
