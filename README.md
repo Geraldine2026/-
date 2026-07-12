@@ -54,8 +54,8 @@
 │   │   └── recap.py           # 前情提要（引用 data_manager）
 │   └── references/            # 参考文件/配置文件
 │       ├── schedule_rules.yaml    # 剧集播出规律配置
-│       ├── sample_history.json    # 示例追剧历史
-│       └── usage_guide.md         # 使用指南
+
+│       └──sample_history.json    # 示例追剧历史
 ├── data/                      # 数据存储
 │   ├── drama_data.json        # 追剧数据（脚本共享）
 │   └── test_inputs.json       # 20个测试用例
