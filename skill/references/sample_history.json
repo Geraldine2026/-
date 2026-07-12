@@ -1,0 +1,105 @@
+{
+  "watch_history": [
+    {
+      "drama_name": "黑暗荣耀",
+      "status": "watching",
+      "current_episode": 8,
+      "rating": 9,
+      "tags": ["悬疑", "复仇", "韩剧"],
+      "date_added": "2026-06-15"
+    },
+    {
+      "drama_name": "繁花",
+      "status": "watching",
+      "current_episode": 12,
+      "rating": 8,
+      "tags": ["年代", "商战", "国产剧"],
+      "date_added": "2026-06-20"
+    },
+    {
+      "drama_name": "庆余年2",
+      "status": "watching",
+      "current_episode": 15,
+      "rating": 7,
+      "tags": ["古装", "权谋", "穿越"],
+      "date_added": "2026-07-01"
+    },
+    {
+      "drama_name": "狂飙",
+      "status": "completed",
+      "current_episode": 39,
+      "rating": 10,
+      "tags": ["犯罪", "悬疑", "国产剧"],
+      "date_added": "2026-05-10"
+    },
+    {
+      "drama_name": "三体",
+      "status": "watching",
+      "current_episode": 20,
+      "rating": 9,
+      "tags": ["科幻", "悬疑", "国产剧"],
+      "date_added": "2026-06-25"
+    },
+    {
+      "drama_name": "漫长的季节",
+      "status": "completed",
+      "current_episode": 12,
+      "rating": 10,
+      "tags": ["悬疑", "年代", "国产剧"],
+      "date_added": "2026-04-01"
+    },
+    {
+      "drama_name": "去有风的地方",
+      "status": "completed",
+      "current_episode": 40,
+      "rating": 8,
+      "tags": ["治愈", "爱情", "国产剧"],
+      "date_added": "2026-03-15"
+    },
+    {
+      "drama_name": "莲花楼",
+      "status": "watching",
+      "current_episode": 30,
+      "rating": 9,
+      "tags": ["武侠", "悬疑", "国产剧"],
+      "date_added": "2026-07-05"
+    },
+    {
+      "drama_name": "长相思2",
+      "status": "watching",
+      "current_episode": 5,
+      "rating": 7,
+      "tags": ["古装", "爱情", "奇幻"],
+      "date_added": "2026-07-08"
+    },
+    {
+      "drama_name": "边水往事",
+      "status": "watching",
+      "current_episode": 10,
+      "rating": 8,
+      "tags": ["悬疑", "犯罪", "国产剧"],
+      "date_added": "2026-07-10"
+    },
+    {
+      "drama_name": "甄嬛传",
+      "status": "completed",
+      "current_episode": 76,
+      "rating": 10,
+      "tags": ["古装", "宫斗", "经典"],
+      "date_added": "2025-12-01"
+    },
+    {
+      "drama_name": "琅琊榜",
+      "status": "completed",
+      "current_episode": 54,
+      "rating": 10,
+      "tags": ["古装", "权谋", "经典"],
+      "date_added": "2025-11-15"
+    }
+  ],
+  "preferences": {
+    "favorite_genres": ["悬疑", "古装", "国产剧"],
+    "disliked_genres": ["偶像剧", "甜宠"],
+    "average_rating": 8.5
+  }
+}

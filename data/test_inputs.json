@@ -1,0 +1,222 @@
+{
+  "test_suite": "追剧日历管家 - 功能测试数据集",
+  "created_date": "2026-07-12",
+  "total_test_cases": 20,
+  "test_cases": [
+    {
+      "id": "TC001",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "我在看《黑暗荣耀》，更新到第8集",
+      "expected_output": {
+        "drama_name": "黑暗荣耀",
+        "current_episode": 8,
+        "date": "2026-07-12"
+      },
+      "description": "标准录入格式 - 带书名号"
+    },
+    {
+      "id": "TC002",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "最近在追《繁花》，看到第12集了",
+      "expected_output": {
+        "drama_name": "繁花",
+        "current_episode": 12,
+        "date": "2026-07-12"
+      },
+      "description": "变体录入格式 - '看到'替代'更新到'"
+    },
+    {
+      "id": "TC003",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "《庆余年2》第15集看完了",
+      "expected_output": {
+        "drama_name": "庆余年2",
+        "current_episode": 15,
+        "date": "2026-07-12"
+      },
+      "description": "简写录入格式 - 无动词"
+    },
+    {
+      "id": "TC004",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "狂飙更新到20集了",
+      "expected_output": {
+        "drama_name": "狂飙",
+        "current_episode": 20,
+        "date": "2026-07-12"
+      },
+      "description": "无书名号录入"
+    },
+    {
+      "id": "TC005",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "今天开始看《三体》",
+      "expected_output": {
+        "drama_name": "三体",
+        "current_episode": 1,
+        "date": "2026-07-12"
+      },
+      "description": "未指定集数，默认第1集"
+    },
+    {
+      "id": "TC006",
+      "category": "录入",
+      "function": "parse_drama_input",
+      "input": "我在看《莲花楼》第30集了，好好看",
+      "expected_output": {
+        "drama_name": "莲花楼",
+        "current_episode": 30,
+        "date": "2026-07-12"
+      },
+      "description": "带情感评价的录入"
+    },
+    {
+      "id": "TC007",
+      "category": "日程",
+      "function": "generate_schedule",
+      "input": "本周追剧日历",
+      "expected_output": "包含周一至周日的日程表，至少显示3部剧的更新",
+      "description": "标准日程生成请求"
+    },
+    {
+      "id": "TC008",
+      "category": "日程",
+      "function": "generate_schedule",
+      "input": "这周看什么",
+      "expected_output": "包含周一至周日的日程表",
+      "description": "口语化日程请求"
+    },
+    {
+      "id": "TC009",
+      "category": "日程",
+      "function": "generate_schedule",
+      "input": "给我追剧日程",
+      "expected_output": "包含周一至周日的日程表",
+      "description": "直接请求日程"
+    },
+    {
+      "id": "TC010",
+      "category": "预测",
+      "function": "predict_completion",
+      "input": "《黑暗荣耀》什么时候完结",
+      "expected_output": {
+        "drama_name": "黑暗荣耀",
+        "total_episodes": 16,
+        "current_episode": 8,
+        "remaining": 8,
+        "weeks_needed": 4
+      },
+      "description": "完结时间预测"
+    },
+    {
+      "id": "TC011",
+      "category": "预测",
+      "function": "predict_completion",
+      "input": "预测一下《繁花》的完结时间",
+      "expected_output": {
+        "drama_name": "繁花",
+        "total_episodes": 30,
+        "current_episode": 12,
+        "remaining": 18,
+        "weeks_needed": 9
+      },
+      "description": "预测请求变体"
+    },
+    {
+      "id": "TC012",
+      "category": "预测",
+      "function": "predict_completion",
+      "input": "距离《庆余年2》完结还有多久",
+      "expected_output": {
+        "drama_name": "庆余年2",
+        "total_episodes": 36,
+        "current_episode": 15,
+        "remaining": 21,
+        "weeks_needed": 21
+      },
+      "description": "剩余时间询问"
+    },
+    {
+      "id": "TC013",
+      "category": "推荐",
+      "function": "recommend_dramas",
+      "input": "剧荒了，推荐几部剧",
+      "expected_output": "返回3-5部推荐剧集，每部带推荐理由",
+      "description": "标准推荐请求"
+    },
+    {
+      "id": "TC014",
+      "category": "推荐",
+      "function": "recommend_dramas",
+      "input": "有什么好看的推荐一下",
+      "expected_output": "返回3-5部推荐剧集",
+      "description": "口语化推荐请求"
+    },
+    {
+      "id": "TC015",
+      "category": "推荐",
+      "function": "recommend_dramas",
+      "input": "我该看什么",
+      "expected_output": "返回3-5部推荐剧集",
+      "description": "简短推荐请求"
+    },
+    {
+      "id": "TC016",
+      "category": "前情提要",
+      "function": "generate_recap",
+      "input": "《黑暗荣耀》第7集讲了什么",
+      "expected_output": "包含主要事件、关键台词、本集伏笔的结构化摘要",
+      "description": "标准前情提要请求"
+    },
+    {
+      "id": "TC017",
+      "category": "前情提要",
+      "function": "generate_recap",
+      "input": "帮我回忆一下《繁花》第10集",
+      "expected_output": "包含主要事件的结构化摘要",
+      "description": "回忆模式请求"
+    },
+    {
+      "id": "TC018",
+      "category": "前情提要",
+      "function": "generate_recap",
+      "input": "前情提要：《庆余年2》第20集",
+      "expected_output": "包含主要事件的结构化摘要",
+      "description": "前情提要模式请求"
+    },
+    {
+      "id": "TC019",
+      "category": "边界",
+      "function": "parse_drama_input",
+      "input": "你好",
+      "expected_output": {
+        "error": "无法解析"
+      },
+      "description": "无效输入 - 无剧名无集数"
+    },
+    {
+      "id": "TC020",
+      "category": "边界",
+      "function": "predict_completion",
+      "input": "《不存在的剧》什么时候完结",
+      "expected_output": "未找到该剧的播出规律",
+      "description": "无效输入 - 不存在的剧名"
+    }
+  ],
+  "coverage_summary": {
+    "功能覆盖": {
+      "录入": 7,
+      "日程": 3,
+      "预测": 3,
+      "推荐": 3,
+      "前情提要": 3,
+      "边界测试": 1
+    },
+    "总用例数": 20
+  }
+}

@@ -1,0 +1,102 @@
+# 剧集播出规律配置
+# 用于日程生成和完结预测
+
+dramas:
+  - name: "黑暗荣耀"
+    total_episodes: 16
+    episodes_per_week: 2
+    air_days:
+      - "周五"
+    air_time: "20:00"
+    platform: "Netflix"
+    status: "ongoing"  # ongoing | completed | upcoming
+
+  - name: "繁花"
+    total_episodes: 30
+    episodes_per_week: 2
+    air_days:
+      - "周日"
+      - "周一"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "ongoing"
+
+  - name: "庆余年2"
+    total_episodes: 36
+    episodes_per_week: 1
+    air_days:
+      - "周三"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "ongoing"
+
+  - name: "狂飙"
+    total_episodes: 39
+    episodes_per_week: 2
+    air_days:
+      - "周二"
+      - "周四"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "ongoing"
+
+  - name: "三体"
+    total_episodes: 30
+    episodes_per_week: 3
+    air_days:
+      - "周六"
+      - "周日"
+      - "周一"
+    air_time: "21:00"
+    platform: "腾讯视频"
+    status: "ongoing"
+
+  - name: "漫长的季节"
+    total_episodes: 12
+    episodes_per_week: 1
+    air_days:
+      - "周日"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "completed"
+
+  - name: "去有风的地方"
+    total_episodes: 40
+    episodes_per_week: 2
+    air_days:
+      - "周四"
+      - "周五"
+    air_time: "20:00"
+    platform: "芒果TV"
+    status: "completed"
+
+  - name: "莲花楼"
+    total_episodes: 40
+    episodes_per_week: 3
+    air_days:
+      - "周三"
+      - "周四"
+      - "周五"
+    air_time: "19:30"
+    platform: "爱奇艺"
+    status: "ongoing"
+
+  - name: "长相思2"
+    total_episodes: 23
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周二"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "ongoing"
+
+  - name: "边水往事"
+    total_episodes: 21
+    episodes_per_week: 2
+    air_days:
+      - "周三"
+      - "周四"
+    air_time: "20:00"
+    platform: "优酷"
+    status: "ongoing"
