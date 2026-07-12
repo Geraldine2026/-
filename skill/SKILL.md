@@ -503,3 +503,164 @@ references/sample_history.json：示例追剧历史数据
 智能推荐	到处问别人	基于追剧历史个性化推荐	✅ 用户画像+兴趣匹配
 前情提要	翻半天找上一集	一键生成剧情摘要	✅ 自动摘要生成
 核心结论：没有 AI，这就是一个普通的 Excel 表格；有 AI，它变成了一个"懂你的追剧管家"。
+
+
+## 🤖 与 WorkBuddy 交互记录
+
+### 交互记录1：创建项目文件结构
+
+**用户指令：**
+请帮我在当前工作目录 E:\jianxi\追剧日历管家 下，创建完整的项目文件结构
+
+```text
+```
+
+**AI 执行过程：**
+1. 创建 `skill/`、`data/`、`tests/`、`iteration/` 文件夹
+2. 创建 `SKILL.md`、`README.md` 等核心文件
+3. 创建 `scripts/` 和 `references/` 子目录及其文件
+
+
+### 交互记录2：编写核心脚本
+
+**用户指令：**
+请编写 data_manager.py、parser.py、scheduler.py、predictor.py、recommender.py、recap.py 六个核心脚本
+
+```text
+```
+
+**AI 执行过程：**
+1. 编写 `data_manager.py`：数据持久化管理，提供统一的读写接口
+2. 编写 `parser.py`：自然语言解析，支持 "开始看" 默认第1集
+3. 编写 `scheduler.py`：基于真实数据生成追剧日程
+4. 编写 `predictor.py`：智能预测完结日期
+5. 编写 `recommender.py`：多维度评分，推荐5部剧
+6. 编写 `recap.py`：查询预设摘要 + AI 动态生成
+
+
+### 交互记录3：更新 SKILL.md 脚本调用说明
+
+**用户指令：**
+请在每个功能中增加「调用的脚本」说明，体现哪个功能用了哪个脚本
+
+```text
+```
+
+**AI 执行过程：**
+1. 为每个功能新增「调用的脚本」表格
+2. 包含：脚本路径、引用方式、调用命令、输入输出、数据依赖
+3. 新增「脚本调用关系总图」展示完整链路
+
+
+### 交互记录4：迭代日志更新（4轮迭代）
+
+**用户指令：**
+请写4轮迭代日志，不要提到老师
+
+```text
+```
+
+**AI 执行过程：**
+1. V1.0→V1.1：修复"开始看"无法解析问题，通过率 85.7%→100%
+2. V1.1→V1.2：新增 data_manager，实现数据持久化
+3. V1.2→V2.0：所有脚本统一读写 data_manager，形成数据闭环
+4. V2.0→V2.1：推荐联动、待更新提醒、多维度评分
+
+
+### 交互记录5：测试验证
+
+**用户指令：**
+请测试所有脚本是否正常运行
+
+```text
+```
+
+**AI 执行过程：**
+1. 运行 `python parser.py "《黑暗荣耀》我看到第8集，最新16集"` → ✅ 成功
+2. 运行 `python scheduler.py` → ✅ 生成日程
+3. 运行 `python predictor.py "黑暗荣耀"` → ✅ 预测完结
+4. 运行 `python recommender.py` → ✅ 推荐5部剧
+5. 运行 `python recap.py "黑暗荣耀" 7` → ✅ 前情提要
+
+
+### 交互记录6：test_record.md 测试记录
+
+**用户指令：**
+请根据测试结果，更新 test_record.md
+
+```text
+```
+
+**AI 执行过程：**
+1. 记录21个测试用例，100%通过
+2. 验证所有脚本引用关系正常
+3. 附上完整执行日志
+
+
+### 交互记录7：README.md 更新
+
+**用户指令：**
+请更新 README.md，包含脚本引用关系和使用说明
+
+```text
+```
+
+**AI 执行过程：**
+1. 新增「脚本引用关系」章节
+2. 展示数据流闭环图
+3. 更新使用方式和测试说明
+
+
+### 交互记录8：references/ 配置文件扩充
+
+**用户指令：**
+请更新 sample_history.json 和 schedule_rules.yaml，多一些数据
+
+```text
+```
+
+**AI 执行过程：**
+1. `sample_history.json`：12部→26部，新增 platform、total_episodes、statistics
+2. `schedule_rules.yaml`：10部→29部，新增 genre、tags
+
+
+### 交互记录9：__init__.py 更新
+
+**用户指令：**
+请更新 init.py，导出 data_manager 的所有函数
+
+```text
+```
+
+**AI 执行过程：**
+1. 新增 `from .data_manager import load_data, save_data, add_or_update_drama, get_all_dramas, get_drama_info, get_summary, delete_drama`
+2. __all__ 从 5 个函数扩展到 10 个函数
+
+
+### 交互记录10：GitHub 推送
+
+**用户指令：**
+请帮我推送代码到 GitHub
+
+```text
+```
+
+**AI 执行过程：**
+1. 执行 `git add .` 暂存所有文件
+2. 执行 `git commit -m "追剧日历管家 v2.1: 完整版本，包含4轮迭代、21个测试用例、数据持久化、脚本联动"`
+3. 执行 `git push origin master` 推送到远程仓库
+4. 确认推送成功，所有 7 项提交内容完整
+
+---
+
+## 📊 交互统计
+
+| 类别 | 次数 | 说明 |
+|------|------|------|
+| 创建/修改文件 | 12 次 | 包括 scripts、references、SKILL.md、README.md 等 |
+| 功能测试 | 5 次 | parser、scheduler、predictor、recommender、recap |
+| 迭代优化 | 4 轮 | V1.0→V1.1→V1.2→V2.0→V2.1 |
+| 数据扩充 | 2 次 | sample_history.json 和 schedule_rules.yaml |
+| GitHub 操作 | 3 次 | add、commit、push |
+
+**总计交互次数：约 30+ 次**
