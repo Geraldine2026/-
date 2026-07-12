@@ -9,7 +9,9 @@ dramas:
       - "周五"
     air_time: "20:00"
     platform: "Netflix"
-    status: "ongoing"  # ongoing | completed | upcoming
+    status: "ongoing"
+    genre: "悬疑复仇"
+    tags: ["韩剧", "Netflix", "高分"]
 
   - name: "繁花"
     total_episodes: 30
@@ -20,6 +22,8 @@ dramas:
     air_time: "19:30"
     platform: "腾讯视频"
     status: "ongoing"
+    genre: "年代商战"
+    tags: ["胡歌", "王家卫", "上海"]
 
   - name: "庆余年2"
     total_episodes: 36
@@ -29,6 +33,8 @@ dramas:
     air_time: "20:00"
     platform: "腾讯视频"
     status: "ongoing"
+    genre: "古装权谋"
+    tags: ["张若昀", "大IP", "穿越"]
 
   - name: "狂飙"
     total_episodes: 39
@@ -38,7 +44,9 @@ dramas:
       - "周四"
     air_time: "20:00"
     platform: "爱奇艺"
-    status: "ongoing"
+    status: "completed"
+    genre: "犯罪悬疑"
+    tags: ["张译", "爆款", "扫黑除恶"]
 
   - name: "三体"
     total_episodes: 30
@@ -50,6 +58,8 @@ dramas:
     air_time: "21:00"
     platform: "腾讯视频"
     status: "ongoing"
+    genre: "科幻悬疑"
+    tags: ["刘慈欣", "大制作", "科幻"]
 
   - name: "漫长的季节"
     total_episodes: 12
@@ -59,6 +69,8 @@ dramas:
     air_time: "20:00"
     platform: "腾讯视频"
     status: "completed"
+    genre: "悬疑年代"
+    tags: ["范伟", "秦昊", "豆瓣高分"]
 
   - name: "去有风的地方"
     total_episodes: 40
@@ -69,6 +81,8 @@ dramas:
     air_time: "20:00"
     platform: "芒果TV"
     status: "completed"
+    genre: "治愈爱情"
+    tags: ["刘亦菲", "大理", "慢生活"]
 
   - name: "莲花楼"
     total_episodes: 40
@@ -80,6 +94,8 @@ dramas:
     air_time: "19:30"
     platform: "爱奇艺"
     status: "ongoing"
+    genre: "武侠悬疑"
+    tags: ["成毅", "探案", "古装"]
 
   - name: "长相思2"
     total_episodes: 23
@@ -90,6 +106,8 @@ dramas:
     air_time: "20:00"
     platform: "腾讯视频"
     status: "ongoing"
+    genre: "古装爱情"
+    tags: ["杨紫", "奇幻", "大IP"]
 
   - name: "边水往事"
     total_episodes: 21
@@ -100,3 +118,229 @@ dramas:
     air_time: "20:00"
     platform: "优酷"
     status: "ongoing"
+    genre: "悬疑犯罪"
+    tags: ["郭麒麟", "新剧", "金三角"]
+
+  - name: "白夜追凶"
+    total_episodes: 32
+    episodes_per_week: 1
+    air_days:
+      - "周五"
+    air_time: "20:00"
+    platform: "优酷"
+    status: "completed"
+    genre: "悬疑犯罪"
+    tags: ["潘粤明", "经典", "高分"]
+
+  - name: "隐秘的角落"
+    total_episodes: 12
+    episodes_per_week: 1
+    air_days:
+      - "周六"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "悬疑"
+    tags: ["秦昊", "爬山", "高分"]
+
+  - name: "沉默的真相"
+    total_episodes: 12
+    episodes_per_week: 1
+    air_days:
+      - "周六"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "悬疑犯罪"
+    tags: ["廖凡", "白宇", "社会派"]
+
+  - name: "父母爱情"
+    total_episodes: 44
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周三"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "家庭生活"
+    tags: ["郭涛", "梅婷", "经典"]
+
+  - name: "山海情"
+    total_episodes: 23
+    episodes_per_week: 2
+    air_days:
+      - "周二"
+      - "周四"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "年代现实"
+    tags: ["黄轩", "正午阳光", "高分"]
+
+  - name: "人世间"
+    total_episodes: 58
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周三"
+    air_time: "19:30"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "年代现实"
+    tags: ["雷佳音", "辛柏青", "获奖"]
+
+  - name: "唐朝诡事录"
+    total_episodes: 36
+    episodes_per_week: 2
+    air_days:
+      - "周三"
+      - "周四"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "ongoing"
+    genre: "古装悬疑"
+    tags: ["杨旭文", "杨志刚", "探案"]
+
+  - name: "苍兰诀"
+    total_episodes: 36
+    episodes_per_week: 2
+    air_days:
+      - "周五"
+      - "周六"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "古装仙侠"
+    tags: ["虞书欣", "王鹤棣", "爆款"]
+
+  - name: "我是刑警"
+    total_episodes: 38
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周二"
+    air_time: "19:30"
+    platform: "爱奇艺"
+    status: "ongoing"
+    genre: "犯罪悬疑"
+    tags: ["于和伟", "真实案件", "新剧"]
+
+  - name: "风起洛阳"
+    total_episodes: 39
+    episodes_per_week: 2
+    air_days:
+      - "周三"
+      - "周四"
+    air_time: "20:00"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "古装悬疑"
+    tags: ["黄轩", "王一博", "探案"]
+
+  - name: "御赐小仵作"
+    total_episodes: 36
+    episodes_per_week: 2
+    air_days:
+      - "周五"
+      - "周六"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "古装悬疑"
+    tags: ["苏晓彤", "王子奇", "口碑"]
+
+  - name: "开端"
+    total_episodes: 15
+    episodes_per_week: 1
+    air_days:
+      - "周二"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "悬疑"
+    tags: ["白敬亭", "赵今麦", "时间循环"]
+
+  - name: "星汉灿烂"
+    total_episodes: 56
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周二"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "古装爱情"
+    tags: ["吴磊", "赵露思", "大IP"]
+
+  - name: "梦华录"
+    total_episodes: 40
+    episodes_per_week: 2
+    air_days:
+      - "周四"
+      - "周五"
+    air_time: "20:00"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "古装女性"
+    tags: ["刘亦菲", "陈晓", "宋代"]
+
+  - name: "知否知否应是绿肥红瘦"
+    total_episodes: 78
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周二"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "古装宅斗"
+    tags: ["赵丽颖", "冯绍峰", "经典"]
+
+  - name: "都挺好"
+    total_episodes: 46
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周三"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "家庭现实"
+    tags: ["姚晨", "倪大红", "原生家庭"]
+
+  - name: "小欢喜"
+    total_episodes: 49
+    episodes_per_week: 2
+    air_days:
+      - "周二"
+      - "周四"
+    air_time: "19:30"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "家庭教育"
+    tags: ["黄磊", "海清", "高考"]
+
+  - name: "三十而已"
+    total_episodes: 43
+    episodes_per_week: 2
+    air_days:
+      - "周四"
+      - "周五"
+    air_time: "19:30"
+    platform: "腾讯视频"
+    status: "completed"
+    genre: "女性都市"
+    tags: ["江疏影", "童瑶", "毛晓彤"]
+
+  - name: "流金岁月"
+    total_episodes: 38
+    episodes_per_week: 2
+    air_days:
+      - "周一"
+      - "周三"
+    air_time: "19:30"
+    platform: "爱奇艺"
+    status: "completed"
+    genre: "女性成长"
+    tags: ["刘诗诗", "倪妮", "亦舒"]

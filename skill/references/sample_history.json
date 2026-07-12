@@ -5,101 +5,277 @@
       "status": "watching",
       "current_episode": 8,
       "rating": 9,
-      "tags": ["悬疑", "复仇", "韩剧"],
-      "date_added": "2026-06-15"
+      "tags": ["悬疑", "复仇", "韩剧", "Netflix", "高分"],
+      "date_added": "2026-06-15",
+      "platform": "Netflix",
+      "total_episodes": 16
     },
     {
       "drama_name": "繁花",
       "status": "watching",
       "current_episode": 12,
       "rating": 8,
-      "tags": ["年代", "商战", "国产剧"],
-      "date_added": "2026-06-20"
+      "tags": ["年代", "商战", "国产剧", "胡歌", "王家卫"],
+      "date_added": "2026-06-20",
+      "platform": "腾讯视频",
+      "total_episodes": 30
     },
     {
       "drama_name": "庆余年2",
       "status": "watching",
       "current_episode": 15,
       "rating": 7,
-      "tags": ["古装", "权谋", "穿越"],
-      "date_added": "2026-07-01"
+      "tags": ["古装", "权谋", "穿越", "张若昀", "大IP"],
+      "date_added": "2026-07-01",
+      "platform": "腾讯视频",
+      "total_episodes": 36
     },
     {
       "drama_name": "狂飙",
       "status": "completed",
       "current_episode": 39,
       "rating": 10,
-      "tags": ["犯罪", "悬疑", "国产剧"],
-      "date_added": "2026-05-10"
+      "tags": ["犯罪", "悬疑", "国产剧", "张译", "爆款"],
+      "date_added": "2026-05-10",
+      "platform": "爱奇艺",
+      "total_episodes": 39
     },
     {
       "drama_name": "三体",
       "status": "watching",
       "current_episode": 20,
       "rating": 9,
-      "tags": ["科幻", "悬疑", "国产剧"],
-      "date_added": "2026-06-25"
+      "tags": ["科幻", "悬疑", "国产剧", "刘慈欣", "大制作"],
+      "date_added": "2026-06-25",
+      "platform": "腾讯视频",
+      "total_episodes": 30
     },
     {
       "drama_name": "漫长的季节",
       "status": "completed",
       "current_episode": 12,
       "rating": 10,
-      "tags": ["悬疑", "年代", "国产剧"],
-      "date_added": "2026-04-01"
+      "tags": ["悬疑", "年代", "国产剧", "范伟", "秦昊", "豆瓣高分"],
+      "date_added": "2026-04-01",
+      "platform": "腾讯视频",
+      "total_episodes": 12
     },
     {
       "drama_name": "去有风的地方",
       "status": "completed",
       "current_episode": 40,
       "rating": 8,
-      "tags": ["治愈", "爱情", "国产剧"],
-      "date_added": "2026-03-15"
+      "tags": ["治愈", "爱情", "国产剧", "刘亦菲", "大理"],
+      "date_added": "2026-03-15",
+      "platform": "芒果TV",
+      "total_episodes": 40
     },
     {
       "drama_name": "莲花楼",
       "status": "watching",
       "current_episode": 30,
       "rating": 9,
-      "tags": ["武侠", "悬疑", "国产剧"],
-      "date_added": "2026-07-05"
+      "tags": ["武侠", "悬疑", "国产剧", "成毅", "探案"],
+      "date_added": "2026-07-05",
+      "platform": "爱奇艺",
+      "total_episodes": 40
     },
     {
       "drama_name": "长相思2",
       "status": "watching",
       "current_episode": 5,
       "rating": 7,
-      "tags": ["古装", "爱情", "奇幻"],
-      "date_added": "2026-07-08"
+      "tags": ["古装", "爱情", "奇幻", "杨紫", "大IP"],
+      "date_added": "2026-07-08",
+      "platform": "腾讯视频",
+      "total_episodes": 23
     },
     {
       "drama_name": "边水往事",
       "status": "watching",
       "current_episode": 10,
       "rating": 8,
-      "tags": ["悬疑", "犯罪", "国产剧"],
-      "date_added": "2026-07-10"
+      "tags": ["悬疑", "犯罪", "国产剧", "郭麒麟", "新剧"],
+      "date_added": "2026-07-10",
+      "platform": "优酷",
+      "total_episodes": 21
     },
     {
       "drama_name": "甄嬛传",
       "status": "completed",
       "current_episode": 76,
       "rating": 10,
-      "tags": ["古装", "宫斗", "经典"],
-      "date_added": "2025-12-01"
+      "tags": ["古装", "宫斗", "经典", "孙俪", "必看"],
+      "date_added": "2025-12-01",
+      "platform": "优酷",
+      "total_episodes": 76
     },
     {
       "drama_name": "琅琊榜",
       "status": "completed",
       "current_episode": 54,
       "rating": 10,
-      "tags": ["古装", "权谋", "经典"],
-      "date_added": "2025-11-15"
+      "tags": ["古装", "权谋", "经典", "胡歌", "必看"],
+      "date_added": "2025-11-15",
+      "platform": "腾讯视频",
+      "total_episodes": 54
+    },
+    {
+      "drama_name": "白夜追凶",
+      "status": "completed",
+      "current_episode": 32,
+      "rating": 9,
+      "tags": ["悬疑", "犯罪", "潘粤明", "经典", "高分"],
+      "date_added": "2026-02-10",
+      "platform": "优酷",
+      "total_episodes": 32
+    },
+    {
+      "drama_name": "隐秘的角落",
+      "status": "completed",
+      "current_episode": 12,
+      "rating": 9,
+      "tags": ["悬疑", "秦昊", "爬山", "高分", "短剧"],
+      "date_added": "2026-01-20",
+      "platform": "爱奇艺",
+      "total_episodes": 12
+    },
+    {
+      "drama_name": "沉默的真相",
+      "status": "completed",
+      "current_episode": 12,
+      "rating": 9,
+      "tags": ["悬疑", "犯罪", "廖凡", "白宇", "社会派"],
+      "date_added": "2026-01-25",
+      "platform": "爱奇艺",
+      "total_episodes": 12
+    },
+    {
+      "drama_name": "父母爱情",
+      "status": "completed",
+      "current_episode": 44,
+      "rating": 10,
+      "tags": ["家庭", "温暖", "经典", "郭涛", "梅婷"],
+      "date_added": "2025-10-10",
+      "platform": "腾讯视频",
+      "total_episodes": 44
+    },
+    {
+      "drama_name": "山海情",
+      "status": "completed",
+      "current_episode": 23,
+      "rating": 9,
+      "tags": ["年代", "现实", "正午阳光", "黄轩", "高分"],
+      "date_added": "2025-12-20",
+      "platform": "腾讯视频",
+      "total_episodes": 23
+    },
+    {
+      "drama_name": "人世间",
+      "status": "completed",
+      "current_episode": 58,
+      "rating": 8,
+      "tags": ["年代", "亲情", "雷佳音", "辛柏青", "获奖"],
+      "date_added": "2026-02-01",
+      "platform": "爱奇艺",
+      "total_episodes": 58
+    },
+    {
+      "drama_name": "唐朝诡事录",
+      "status": "watching",
+      "current_episode": 18,
+      "rating": 8,
+      "tags": ["古装", "悬疑", "探案", "杨旭文", "杨志刚"],
+      "date_added": "2026-07-06",
+      "platform": "爱奇艺",
+      "total_episodes": 36
+    },
+    {
+      "drama_name": "苍兰诀",
+      "status": "completed",
+      "current_episode": 36,
+      "rating": 8,
+      "tags": ["古装", "仙侠", "虞书欣", "王鹤棣", "爆款"],
+      "date_added": "2026-05-20",
+      "platform": "爱奇艺",
+      "total_episodes": 36
+    },
+    {
+      "drama_name": "我是刑警",
+      "status": "watching",
+      "current_episode": 25,
+      "rating": 8,
+      "tags": ["犯罪", "悬疑", "于和伟", "真实案件", "新剧"],
+      "date_added": "2026-07-09",
+      "platform": "爱奇艺",
+      "total_episodes": 38
+    },
+    {
+      "drama_name": "风起洛阳",
+      "status": "completed",
+      "current_episode": 39,
+      "rating": 7,
+      "tags": ["古装", "悬疑", "黄轩", "王一博", "探案"],
+      "date_added": "2026-03-01",
+      "platform": "爱奇艺",
+      "total_episodes": 39
+    },
+    {
+      "drama_name": "御赐小仵作",
+      "status": "completed",
+      "current_episode": 36,
+      "rating": 8,
+      "tags": ["古装", "悬疑", "探案", "苏晓彤", "王子奇", "口碑"],
+      "date_added": "2026-04-15",
+      "platform": "腾讯视频",
+      "total_episodes": 36
+    },
+    {
+      "drama_name": "开端",
+      "status": "completed",
+      "current_episode": 15,
+      "rating": 8,
+      "tags": ["悬疑", "时间循环", "白敬亭", "赵今麦", "正午阳光"],
+      "date_added": "2026-05-05",
+      "platform": "腾讯视频",
+      "total_episodes": 15
+    },
+    {
+      "drama_name": "星汉灿烂",
+      "status": "completed",
+      "current_episode": 56,
+      "rating": 8,
+      "tags": ["古装", "爱情", "吴磊", "赵露思", "大IP"],
+      "date_added": "2026-04-20",
+      "platform": "腾讯视频",
+      "total_episodes": 56
+    },
+    {
+      "drama_name": "梦华录",
+      "status": "completed",
+      "current_episode": 40,
+      "rating": 8,
+      "tags": ["古装", "女性", "刘亦菲", "陈晓", "宋代"],
+      "date_added": "2026-03-20",
+      "platform": "腾讯视频",
+      "total_episodes": 40
     }
   ],
   "preferences": {
-    "favorite_genres": ["悬疑", "古装", "国产剧"],
-    "disliked_genres": ["偶像剧", "甜宠"],
-    "average_rating": 8.5
+    "favorite_genres": ["悬疑", "古装", "国产剧", "犯罪", "年代"],
+    "disliked_genres": ["偶像剧", "甜宠", "校园"],
+    "average_rating": 8.2,
+    "favorite_actors": ["胡歌", "张译", "刘亦菲", "潘粤明", "秦昊"],
+    "favorite_directors": ["王家卫", "正午阳光"],
+    "preferred_platforms": ["腾讯视频", "爱奇艺"]
+  },
+  "statistics": {
+    "total_dramas": 26,
+    "watching": 8,
+    "completed": 18,
+    "avg_rating": 8.2,
+    "total_episodes_watched": 752,
+    "most_watched_genre": "悬疑",
+    "most_watched_platform": "腾讯视频"
   }
 }
